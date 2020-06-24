@@ -7,8 +7,7 @@ header .background-blue {
     flex-direction: row;
     align-items: center;
     height: 61px;
-    padding-left: 37px;
-    padding-top: 5px;
+    margin-left: 1px;
 }
 
 header .kids-runing {
@@ -16,13 +15,26 @@ header .kids-runing {
     flex-direction: row;
     align-items: center;
     height: 61px;
-    padding-left: 880px;
-    padding-top: 75px;
+    padding-left: 680px;
+    padding-bottom: 10px;
 }
 
 header .description {
     font-family: 'Nunito', sans-serif;
     color: rgb(255, 255, 255);
-    padding-left: 530px;
+    padding-left: 130px;
     padding-top: 130px;
+}
+
+section .title-one h5 {
+    color: #4147c1;
+}
+
+section .title-two h5 {
+    color: #4147c1;
+}
+
+section .title-one img {
+    margin-left: 900px;
+    margin-bottom: -300px;
 }
