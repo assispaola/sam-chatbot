@@ -1,13 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Nunito';
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Nunito';
+    font-size: 16px;
+}
+
+
 header .logo-one {
-    padding: 80px;
+    padding: 50px;
 }
 
 header .background-blue {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 61px;
-    margin-left: 1px;
+    height: 10px;
+    padding-bottom: 40px;
+    max-width: 100%;
 }
 
 header .kids-runing {
@@ -15,23 +41,36 @@ header .kids-runing {
     flex-direction: row;
     align-items: center;
     height: 61px;
-    padding-left: 680px;
-    padding-bottom: 10px;
+    padding-left: 800px;
+    padding-top: 60px;
+
 }
 
 header .description {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: rgb(255, 255, 255);
-    padding-left: 130px;
-    padding-top: 130px;
+    padding-left: 150px;
+    padding-top: 200px;
+}
+
+section .title-one {
+    padding-top: 80px;
 }
 
 section .title-one h5 {
     color: #4147c1;
+    font-family: 'Nunito';
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 
 section .title-two h5 {
     color: #4147c1;
+    font-family: 'Nunito';
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 
 section .title-one img {
@@ -42,4 +81,154 @@ section .title-one img {
 section .title-two img {
     margin-left: 900px;
     margin-bottom: -300px;
+}
+
+section .title-three {
+    padding-top: 120px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+
+section .title-three p {
+    color: #fff;
+    position: absolute;
+    padding-top: 920px;
+    padding-left: 230px;
+    font-style: italic;
+    font-family: 'Nunito', sans-serif;
+}
+
+section .about-sam {
+    color: #fff;
+    position: absolute;
+    padding-top: 730px;
+    padding-left: 260px;
+    font-family: 'Nunito', sans-serif;
+    display: inline;
+}
+
+.about-sam h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.about-sam button {
+    background-color: #F7DF19;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 400ms;
+    margin-left: auto;
+}
+
+.about-sam button:hover {
+    background-color: #353aa3;
+    color: #F7DF19;
+    border: 1.5px #F7DF19 solid;
+}
+
+section .title-four {
+    padding-top: 50px;
+    flex-direction: row;
+}
+
+.title-four h2 {
+    padding-left: 550px;
+    padding-bottom: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: #4147c1;
+}
+
+
+.title-four span {
+    padding-left: 200px;
+}
+
+footer {
+    float: center;
+    padding-top: 120px;
+}
+
+@media only screen and (max-width: 480px) {
+    #body {
+        padding: 0 2.4em 0 2.4em;
+        width: 65%;
+    }
+
+    header {
+        position: 100vw;
+
+    }
+
+    header .description h3 {
+        padding-right: 30px;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    header .logo-one img {
+        width: 300px;
+    }
+
+    section .title-one h5,
+    p {
+        align-items: center;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    section .title-two h5,
+    p {
+        align-items: center;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .background-blue2 img {
+        width: 800px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    section .about-sam {
+        padding-left: 95px;
+        padding-bottom: 20px;
+        position: absolute;
+        margin-top: -90%;
+    }
+
+    .title-four {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    section .title-four h2 {
+        padding-left: 10px;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    section .title-four span {
+        padding-left: 15px;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    footer img {
+        width: 400px;
+    }
 }
