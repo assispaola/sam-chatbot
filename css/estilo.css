@@ -127,12 +127,14 @@ section .about-sam {
     letter-spacing: 1px;
     transition: 400ms;
     margin-left: auto;
+
 }
 
 .about-sam button:hover {
-    background-color: #353aa3;
+    background-color: #4147c1;
     color: #F7DF19;
-    border: 1.5px #F7DF19 solid;
+    outline: none;
+    border: none;
 }
 
 section .title-four {
@@ -159,9 +161,11 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-    #body {
-        padding: 0 2.4em 0 2.4em;
-        width: 65%;
+    body {
+
+        width: 100%;
+        overflow-x: hidden;
+
     }
 
     header {
