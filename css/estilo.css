@@ -121,9 +121,9 @@ section .about-sam {
     border-radius: 10px;
     width: 200px;
     height: 40px;
-    color: #fff;
+    color: #4147c1;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 1px;
     transition: 400ms;
     margin-left: auto;
