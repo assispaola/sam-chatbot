@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./img/SAM.png" alt="Sam - Chatbot" />
+  <img src="./images/SAM.png" alt="Sam - Chatbot" />
 
 &#xa0;
 
@@ -90,7 +90,7 @@ $ yarn start
 ``` -->
 <br>
 
- <img src="./img/capa.png" alt="Sam - Chatbot" />
+ <img src="./images/capa.png" alt="Sam - Chatbot" />
  
  <br>
 
