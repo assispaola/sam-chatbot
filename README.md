@@ -65,7 +65,7 @@ The following tools were used in this project:
 - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)<br />
 - ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)<br />
 - ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)<br />
-- ![IBM Watson](https://img2.gratispng.com/20180514/ujw/kisspng-watson-ibm-logo-encapsulated-postscript-5afa41366bbff4.5462186615263501344414.jpg)<br />
+- IBM Watson<br />
 
 <!-- ## :white_check_mark: Requirements ##
 
